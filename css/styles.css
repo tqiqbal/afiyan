@@ -693,6 +693,10 @@ footer {
     .news-grid {
         grid-template-columns: 1fr;
     }
+    
+    .nav-menu {
+        gap: 30px;
+    }
 }
 
 @media (max-width: 480px) {
