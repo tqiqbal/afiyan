@@ -1,0 +1,19 @@
+{
+  "name": "afiyan-website",
+  "version": "1.0.0",
+  "description": "Afiyan Consulting Services - Cybersecurity Solutions Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --host=localhost",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": ["cybersecurity", "consulting", "IAM", "data-security"],
+  "author": "Afiyan Consulting Services",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Afiyan Consulting | Get Your Security Consultation</title>
+    <meta name="description" content="Contact Afiyan Consulting Services for expert cybersecurity consultation. Located in Riyadh, Saudi Arabia. Call +966 54 104 5831 or email contact@afiyan.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">AFIYAN</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Get In Touch</h1>
+                        <p>Ready to secure your business with cutting-edge cybersecurity solutions? Contact our experts today for a consultation tailored to your needs.</p>
+                        <a href="#contact-form" class="cta-button">Send Message</a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/hero.png" alt="Contact Afiyan Consulting" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section">
+            <div class="container">
+                <h2 class="section-title">Contact Information</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>📞 Phone</h4>
+                        <p><a href="tel:+966541045831" style="color: var(--text-white); text-decoration: none;">+966 54 104 5831</a></p>
+                        <span style="color: var(--text-gray); font-size: 0.9rem;">Available: Sunday - Thursday, 9 AM - 6 PM</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>✉️ Email</h4>
+                        <p><a href="mailto:contact@afiyan.com" style="color: var(--text-white); text-decoration: none;">contact@afiyan.com</a></p>
+                        <span style="color: var(--text-gray); font-size: 0.9rem;">Response within 24 hours</span>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <h4>📍 Location</h4>
+                        <p>Riyadh, Kingdom of Saudi Arabia</p>
+                        <span style="color: var(--text-gray); font-size: 0.9rem;">Serving clients nationwide</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form" class="why-choose-us">
+            <div class="container">
+                <div class="why-choose-content">
+                    <div class="why-choose-text">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and our cybersecurity experts will get back to you with a customized solution proposal.</p>
+                        
+                        <form class="contact-form" style="margin-top: 30px;">
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label for="name" style="display: block; margin-bottom: 8px; color: var(--text-white); font-weight: 500;">Full Name *</label>
+                                <input type="text" id="name" name="name" required style="width: 100%; padding: 12px; background: var(--secondary-navy); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-white); font-family: inherit;">
+                            </div>
+                            
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label for="email" style="display: block; margin-bottom: 8px; color: var(--text-white); font-weight: 500;">Email Address *</label>
+                                <input type="email" id="email" name="email" required style="width: 100%; padding: 12px; background: var(--secondary-navy); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-white); font-family: inherit;">
+                            </div>
+                            
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label for="company" style="display: block; margin-bottom: 8px; color: var(--text-white); font-weight: 500;">Company</label>
+                                <input type="text" id="company" name="company" style="width: 100%; padding: 12px; background: var(--secondary-navy); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-white); font-family: inherit;">
+                            </div>
+                            
+                            <div class="form-group" style="margin-bottom: 20px;">
+                                <label for="service" style="display: block; margin-bottom: 8px; color: var(--text-white); font-weight: 500;">Service of Interest</label>
+                                <select id="service" name="service" style="width: 100%; padding: 12px; background: var(--secondary-navy); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-white); font-family: inherit;">
+                                    <option value="">Select a service</option>
+                                    <option value="iam">Identity & Access Management</option>
+                                    <option value="api-security">API Security</option>
+                                    <option value="data-security">Data Security & Compliance</option>
+                                    <option value="cloud-security">Cloud Security</option>
+                                    <option value="consulting">Security Consulting</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group" style="margin-bottom: 30px;">
+                                <label for="message" style="display: block; margin-bottom: 8px; color: var(--text-white); font-weight: 500;">Message *</label>
+                                <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 12px; background: var(--secondary-navy); border: 1px solid var(--border-color); border-radius: 8px; color: var(--text-white); font-family: inherit; resize: vertical;"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="cta-button" style="border: none; cursor: pointer;">Send Message</button>
+                        </form>
+                    </div>
+                    
+                    <div class="why-choose-image">
+                        <img src="assets/why-choose-us.webp" alt="Contact Afiyan Consulting" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section">
+            <div class="container">
+                <h2 class="section-title">What to Expect</h2>
+                <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Quick Response</h3>
+                        <p>We respond to all inquiries within 24 hours with initial consultation and next steps.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🎯</div>
+                        <h3>Customized Solutions</h3>
+                        <p>Every security solution is tailored to your specific business requirements and industry needs.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">🔍</div>
+                        <h3>Free Assessment</h3>
+                        <p>Complimentary security assessment to identify your current security posture and improvement areas.</p>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">📋</div>
+                        <h3>Detailed Proposal</h3>
+                        <p>Comprehensive proposal with timeline, deliverables, and investment details for your review.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Secure Your Future?</h2>
+                    <p>Don't wait for a security incident to happen. Take proactive steps to protect your business today.</p>
+                    <a href="tel:+966541045831" class="cta-button-white">Call Now: +966 54 104 5831</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Afiyan Consulting Services. All rights reserved.</p>
+                <p>Empowering businesses with cutting-edge cybersecurity solutions</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We will get back to you within 24 hours.');
+        });
+    </script>
+</body>
+</html>
